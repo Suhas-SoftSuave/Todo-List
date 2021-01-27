@@ -1,0 +1,75 @@
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.header-name{
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  height: 100px;
+  
+}
+h1{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+  
+}
+
+.app-new{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 50px;
+  height: 400px ; 
+  width: 700px;
+  min-width: 500px;
+}
+
+p{
+  width: 100px;
+  
+}
+
+.listItems{
+  margin-left: 10px;
+  
+  margin-bottom: 10px;
+}
+.list{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightseagreen;
+}
+
+button{
+  margin-left: 10px;
+}
+
+.felx-container{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
